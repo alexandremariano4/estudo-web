@@ -1,0 +1,18 @@
+/*Modelo de caixa*/
+/* 
+.conteudo{
+    border: 2px solid red;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+} */
+
+#noticia{
+    background-color: blueviolet;
+    border: 1px solid gray;
+    padding: 10px;
+}
+h2{
+    border: 2px solid red;
+    margin: 0px;
+}
