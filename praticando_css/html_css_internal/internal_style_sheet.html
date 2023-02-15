@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Inline Style</title>
+    <style type="text/css">
+        p{
+            color: brown;
+        }
+        .colunas{
+            text-align: justify;
+            display: flex;
+            
+        }
+        .coluna{
+            margin: 20px;
+            border-style: dashed;
+            padding: 10px;
+            border-color: rgb(112, 95, 68);
+            box-shadow: 0.2em 0.2em 1em rgb(146, 108, 59);
+        } 
+        #header{
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <div id="header">
+        <div>
+            <ul>
+                <li>
+                    Primeiro Item
+                </li>
+                <li>
+                    Segundo Item
+                </li>
+                <li>
+                    Terceiro Item
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="colunas">
+        <p class="coluna" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste natus facilis tenetur, maiores quae delectus dicta, qui quam tempora aspernatur itaque alias aliquam in ducimus accusantium id, quod quo. </p>
+        <p class="coluna" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cupiditate dignissimos voluptatibus accusamus velit ad blanditiis, ipsa totam aliquid soluta alias nemo dolor quaerat temporibus quod possimus reiciendis, unde libero.</p>
+    </div>
+
+    <hr>
+    <p>Que?</p>
+    
+</body>
+</html>

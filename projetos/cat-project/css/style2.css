@@ -1,0 +1,50 @@
+body{
+    background-color: #403153;
+    color: white;
+    font: 16px  Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+}
+#principal{
+    width: 1000px;
+    height: auto;
+}
+#principal img{
+    width: 100%;
+}
+
+#menu{
+    background-color: rgb(106, 42, 165);
+    padding: 18px;
+    text-align: left;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+}
+a:hover{
+    color: black;
+}
+#conteudo{
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.centralizar{
+    text-align: center;
+}
+h1 {
+    color: #4e2c7c;
+    font-size: 1.25em;
+}
+.img_campanha{
+    border: 5px inset #6d4bbd;
+    text-align: center;
+    
+}
