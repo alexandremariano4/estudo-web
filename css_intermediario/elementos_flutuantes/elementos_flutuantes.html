@@ -14,39 +14,45 @@
             height: 200px;
             color: white;
             margin-bottom: 10px;
-            
-            
-            
-            
-            
         }
+
         .conteudo1{
             background: rgb(252, 133, 115);
             border: 1px solid gray;
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
             color: white;
             margin-bottom: 10px;
-            float: right;
-        }
-        #teste{
-            display: flex;
-            justify-content: flex-end;
+            float: left;
         }
 
+        
+        .clear{
+            clear: both;
+            background-color: gray;
+
+        }
+        
+        #teste{
+            display: flex;
+            justify-content: flex-start
+        }
+        #principal{
+            border: 5px solid red;
+        }
     </style>
 </head>
 <body>
     
-    <div class="conteudo1">Conteúdo 1</div>
-
-    <div id="teste"><div class="conteudo">
-        Conteúdo 2
+    <div id="principal">
+        <div class="conteudo1">Conteúdo 1</div>
+        <div id="testee"><div class="conteudo1">Conteúdo 2</div>
+        <div class="conteudo1">Conteúdo 3</div>
     </div>
-</div>
 
-    <div class="conteudo">
-        Conteúdo 3
+    <div class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit quos delectus odit eveniet et ipsam consectetur unde eos enim nisi, quisquam eaque explicabo magni, labore mollitia esse optio? Ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus aliquid commodi illum pariatur eum voluptatem dolorem quis illo dolores enim nihil ratione, sapiente dolor exercitationem voluptates architecto! Quas, minima? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium consectetur ex molestiae illum at animi assumenda, nisi corporis quisquam doloribus libero quibusdam harum sint laborum dicta non, temporibus dolorum ipsam.
     </div>
+    
 </body>
 </html>
