@@ -1,0 +1,148 @@
+/*Limpar formatação padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(230, 230, 230);
+}
+#icon-login{
+    height: 30px;
+    
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    padding: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.login span{
+    color: white;
+    margin-right: 10px;
+
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+#menu{
+    width: auto;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.star{
+    margin-top: 30px;
+    color: rgb(20, 16, 16);
+}
+.blog{
+    margin-top: 30px;
+    color: white;    
+}
+.head{
+    background: rgb(129, 51, 145);
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+a.opcoes{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+a:hover.opcoes {
+    background: black;
+    color: white;
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+.conteudos{
+    background: white;
+    margin-top: 15px;
+    width: 800px;
+    padding: 20px;
+}
+.lateral{
+    margin-top: 15px;
+    width: 300px;
+    /* background-color: rgb(241, 27, 27); */
+}
+.conteudo_lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.titulo_lateral{
+    background: rgb(201, 201, 201);
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 1px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    width: 800px;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  rgb(129, 51, 145);
+}
+p{
+    margin-top: 5px;
+    text-align: justify;
+}
+.leia-mais{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(129, 51, 145);
+    width: fit-content;
+
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(129, 51, 145);
+    margin-top: 50px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
