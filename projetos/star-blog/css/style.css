@@ -9,8 +9,7 @@ body{
     background: rgb(230, 230, 230);
 }
 #icon-login{
-    height: 30px;
-    
+    height: 30px;    
 }
 .login{
     display: flex;
@@ -43,15 +42,16 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .star{
-    margin-top: 30px;
-    color: rgb(20, 16, 16);
+    /* margin-top: 30px; */
+    color: rgb(172, 172, 172);
 }
 .blog{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     color: white;    
 }
-.head{
+.header{
     background: rgb(129, 51, 145);
+    /* background-image: linear-gradient(0deg, black, rgb(129, 51, 145)); */
 }
 .options{
     display: flex;
@@ -65,8 +65,8 @@ a.opcoes{
     padding: 10px;
 }
 a:hover.opcoes {
-    background: black;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(129, 51, 145);
 }
 .corpo{
     display: flex;
@@ -75,7 +75,7 @@ a:hover.opcoes {
 .conteudos{
     background: white;
     margin-top: 15px;
-    width: 800px;
+    width: 920px;
     padding: 20px;
 }
 .lateral{
@@ -121,14 +121,19 @@ p{
     text-align: justify;
 }
 .leia-mais{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 2px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(129, 51, 145);
     width: fit-content;
+    padding-left: 5px;
 
 }
+a:hover.leia-mais{
+    text-decoration: underline;
+}
+
 hr{
     margin-top: 10px;
     margin-bottom: 5px;
@@ -137,12 +142,17 @@ footer{
     display: flex;
     justify-content: center;
     background: rgb(129, 51, 145);
-    margin-top: 50px;
-    height: 100px;
+    margin-top: 20px;
+    height: 50px;
     color: white;
     font-weight: bold;
 }
 h2{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.texto-lateral{
+    font-size: 0.9em;
+    padding: 5px;
 }
