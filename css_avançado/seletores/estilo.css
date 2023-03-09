@@ -1,0 +1,39 @@
+/*Seletor universal*/
+*{
+    border: 1px solid red;
+}
+/*Seletor de texto*/
+h1{
+    color: green;
+}
+/*Seletor de classe*/
+.azul{
+    color: blue;
+}
+p.azul{
+    color: blue;
+    font-weight: bold;
+    background: black;
+}
+/*Seletor descendente*/
+li a{
+    text-decoration: none;
+    color: rgb(247, 0, 255);
+    border: none;
+}
+/*Seletor de filho*/
+li>a{
+    text-decoration: none;
+    color: red;
+    border: none;
+}
+li.menu{
+    list-style: none;
+}
+/*Seletor irmão adjacente*/
+h1~p{
+    color: pink;
+}
+h1+p{
+    color: rgb(133, 33, 199);
+}
