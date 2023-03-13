@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li>a{
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 30px;
+    display: block;
+    background: url(img/menu.png) no-repeat left bottom;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    background-position: right bottom;
+    color: white;
+}
